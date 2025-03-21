@@ -1,0 +1,231 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+body {
+    background-color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1c1c1c;
+}
+
+.container {
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    display: flex;
+    border: none;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+.container-login {
+    width: 50%;
+    height: 100%;
+}
+
+.container-login-form {
+    width: 364px;
+    height: 469px;
+    margin-top: 140px;
+    margin-left: 159px;
+}
+
+.text-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+.text-login h2 {
+    width: 93px;
+    height: 21px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-size: 30px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+}
+
+.text-login span {
+    width: 354px;
+    height: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 16px !important;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+}
+
+.form-group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form-group .input { 
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 18px;
+    margin: 0;
+    padding-left: ;
+    font-size: 16px;
+    background-color: #f3f1ff;
+}
+
+.form-group input { 
+    width: 86%;
+    height: 52px;
+    padding-left: 13%;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.form-group i {
+    position: absolute;
+    
+    width: 83%;
+    margin-top: 6.5%;
+    margin-left: 5%;
+}
+
+.form-group #btn-login {
+    width: 124px;
+    height: 52px;
+    margin: 6px auto;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(to right, #a381ff, #5b45ee);
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-social-group {
+    width: 364px;
+    height: 24px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-social-group hr {
+    width: 98%;
+    height: 1px;
+    margin: 20px 0;
+    border: none;
+    background-color: #ecebeb;
+}
+
+.login-social-group #login-social {
+    background-color: #fff;
+    padding: 0 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.login-social-button i {
+    margin-right: 5px;
+}
+
+.login-social-button button {
+    width: 360px;
+    height: 52px;
+    margin: 6px auto;
+    border: 1px solid #ecebeb;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.container-image {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background: linear-gradient(to bottom, #9181F4, #5038ED);
+    position: relative;
+}
+
+
+.container-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;background-image: url('../images/container-image-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    opacity: 0.08;
+}
+
+.card {
+    width: 60%;
+    height: 66%;
+    margin-top: 19%;
+    margin-left: 22%;
+    position: relative;
+    border: none;
+    border-radius: 10%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(163, 129, 255, 0.5); 
+}
+
+.card-text #image-box-text {
+    position: absolute;
+    bottom: 51%;
+    left: 26%;
+    width: 30%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 46px;
+    overflow:auto ;
+}
+
+.card-icon #image-box-icon {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    bottom: 30%;
+    left: 16%;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-image: url('../images/light.png');
+}
+
+.card-image #image-box-photo {
+    width: 115%;
+    margin-top: -77%;
+    margin-left: -18%;
+    padding: 2px 0;
+    object-fit: cover;
+    position: absolute;
+}

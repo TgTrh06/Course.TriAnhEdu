@@ -1,0 +1,177 @@
+/* Comment */
+            /*  
+                CSS Selector: quy định các phần tử html bị ảnh hưởng bởi CSS
+                selector {
+                    property: value;
+                }
+
+                - Theo Id: #id
+                - Theo Class: .class
+                    + Độ ưu tiên của các selector: id > classname > tagname
+
+                - Theo Tag: tag
+                - Theo Attribute: [attribute]
+            
+            */
+
+            body {
+                background-color: #dbffe6;
+                font-family: Arial, sans-serif;
+            }
+            
+            .container {
+                width: 1024px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                border: 1.4px solid #ccc;
+                border-radius: 5px;
+            }
+
+            #header {
+                background-color: #f5f5f5;
+                border: 1px solid #ccc;
+                display: flex;
+            }
+
+            .logo {
+                width: 30%;
+                height: 100%;
+                background-color: bisque;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+
+            .logo img {
+                width: 20%;
+                height: 20%;
+            }
+            
+            ul {
+                display: flex;
+                margin: 0;
+            }
+
+            #navbar li {
+                margin: 0 10px;
+                list-style-type: none;
+                padding: 15px 5px;
+
+            }
+            #navbar li:hover{
+                background-color: #fff;
+            }
+
+            #navbar li:hover a {
+                color: aqua;
+            }
+
+            .menu-link {
+                display: block;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+
+            #btn-one {
+                position: relative;
+                top: 10px;
+            }
+
+            #menu-level-two {
+                display: none;
+                position: absolute;
+                top: 100%; /* Position right below the parent */
+                left: 0;
+                background-color: #f5f5f5;
+                border: 1px solid #ccc;
+            }
+
+            #menu-services {
+                position: relative; /* Ensure the parent is positioned */
+            }
+
+            #menu-services:hover #menu-level-two {
+                display: block;
+            }
+
+            #menu-link-level-two {
+                top: 0;
+                left: 100%; /* Position right next to the parent */
+                width: 200px;
+                background-color: #f5f5f5;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* 
+                CSS Selector: quy định các phần tử html bị ảnh hưởng bởi CSS
+                selector {
+                    property: value;
+                }
+
+                - Theo Id: #id
+                - Theo Class: .class
+                    + Độ ưu tiên của các selector: id > classname > tagname
+
+                - Theo Tag: tag
+                - Theo Attribute: [attribute]           
+            *
+                CSS Property: quy định các thuộc tính của phần tử html
+                - color: màu chữ
+                - background-color: màu nền
+                
+                - font-size: kích thước chữ
+                - font-weight: độ đậm của chữ
+                - font-style: kiểu chữ
+                
+                - text-align: căn lề chữ
+                - text-decoration: gạch chân, gạch ngang chữ
+                - text-transform: chuyển đổi chữ hoa, chữ thường
+                                
+                - padding: khoảng cách giữa nội dung và viền
+                - margin: khoảng cách giữa các phần tử
+                - border: viền
+                - width: chiều rộng
+                - height: chiều cao
+                
+                - display: hiển thị phần tử
+                - position: vị trí phần tử
+                - top, right, bottom, left: vị trí phần tử
+                - z-index: thứ tự hiển thị phần tử
+                - float: đặt phần tử theo chiều ngang
+                - clear: xác định phần tử nào không được đặt bên cạnh phần tử khác
+                - overflow: xác định cách xử lý nội dung vượt quá kích thước phần tử
+                - cursor: kiểu con trỏ
+                
+                - background-image: hình nền
+                - background-size: kích thước hình nền
+                - background-repeat: lặp lại hình nền
+                - background-position: vị trí hình nền
+                - background-attachment: cố định hình nền
+                - background: màu nền, hình nền, kích thước hình nền, vị trí hình nền
+                
+                - box-shadow: đổ bóng cho phần tử
+                - text-shadow: đổ bóng cho chữ
+                - border-radius: bo tròn viền
+                - transition: hiệu ứng chuyển động
+                - animation: hiệu ứng chuyển động
+                - transform: biến đổi phần tử
+                
+                - filter: hiệu ứng mờ, đen trắng, màu
+                - opacity: độ trong suốt của phần tử
+                - visibility: ẩn hiện phần tử
+                - pointer-events: xác định phần tử có thể tương tác hay không
+            */
+
