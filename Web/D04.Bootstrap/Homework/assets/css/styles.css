@@ -1,0 +1,93 @@
+.input-search-custom {
+    border-top-right-radius: 62px;
+    border-bottom-right-radius: 62px;
+}
+
+.icon-search-custom {
+    border-top-left-radius: 62px;
+    border-bottom-left-radius: 62px;
+}
+
+.home-banner-wrapper {
+    background-color: #f0f0f0;
+}
+
+.home-banner {
+    height: 663px;
+}
+
+.banner-title {
+    margin-top: 70px;
+}
+
+.banner-content {
+    z-index: 1;
+}
+
+.banner-img {
+    z-index: 0;
+}
+
+.brands {
+    width: 100%;
+    height: 122px;
+    margin: 0;
+    background-color: #000;
+}
+
+
+.discount {
+    background-color: #ffebeb;
+    border: none;
+    font-size: 12px;
+}
+
+.content-title {
+    font-size: 48px;
+}
+
+.home-browser {
+    background-color: #f0f0f0;
+}
+
+.category div {
+    height: 200px;
+}
+
+.casual {
+    background-image: url(../images/category/casual.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formal {
+    background-image: url(../images/category/formal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.party {
+    background-image: url(../images/category/party.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gym {
+    background-image: url(../images/category/gym.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.up-to-date {
+    margin-bottom: -5%;
+}
+
+.social-list {
+    background-color: #f0f0f0;
+    border: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #f0f0f0;
+}

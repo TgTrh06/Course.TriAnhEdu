@@ -1,0 +1,37 @@
+Một công ty mua và bán một trong các loại đồ cũ như đồ gỗ, quần áo, đồ sứ, đá quý. 
+
+Mỗi mặt hàng có mã mặt hàng, đặc tả về mặt hàng, giá đặt hàng, tình trạng.
+
+Trong số khách hàng của công ty có khách hàng chỉ mua hàng, có khách hàng chỉ bán, có khách hàng vừa mua vừa bán với công ty. 
+
+Thông tin về khách hàng cần lưu là mã, tên và địa chỉ.
+
+Khi công ty bán hàng cho khách hàng, thông tin cần lưu là tiền hoa hồng, giá bán thật sự, thuế bán hàng và ngày bán. 
+
+Thuế bằng không là trường hợp được miễn thuế. 
+
+Khi mua hàng của khách hàng, công ty lưu thông tin về giá mua, ngày mua, tình trạng hàng khi mua
+
+- B1: Muc dich -> Luu DATA mua ban hang hoa
+- B2: Thuc the: 
+	+ San pham (ma san pham, dac ta, gia dat hang, tinh trang, loai hang)
+	+ Khach hang (ma khach hang, ten khach hang, dia chi, loai khach hang)
+	+ Don mua (tien hoa hong, gia ban that, thue ban hang, ngay)
+	+ Don ban (gia mua, ngay mua, tinh trang hang khi mua)
+- B4: Xac dinh moi quan he
+	+ San pham 1-1 Don hang ban
+		Don hang ban 1-n San pham
+	+ San pham 1-1 Don hang mua
+		Don hang mua 1-n San pham
+	+ Khach hang 1-n Don hang ban
+		Don hang ban 1-1 Khach hang
+	+ Khach hang 1-n Don hang mua
+		Don hang mua 1-1 Khach hang
+- B5: Xac dinh PK, RK
+	+ San phan: MaSP(PK)
+	+ Khach hang: MaKH(PK)
+	+ Don mua: MaDH(PK)
+	+ Don ban: MaDH(PK)
+	
+	+ Chi tiet don hang mua: MaDH_Mua(RK), MaSP(RK)
+	+ Chi tiet don hang ban: MaDH_Ban(RK), MaSP(RK)

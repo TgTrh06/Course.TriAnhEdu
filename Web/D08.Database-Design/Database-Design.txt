@@ -1,0 +1,18 @@
+-- THIẾT KẾ CƠ SỞ DỮ LIỆU --
+	* Muc dich: Tim mo hinh CSDL
+	* San pham: ERD
+	* Steps (https://itviec.com/blog/thiet-ke-co-so-du-lieu/): 
+		- B1: Xac dinh muc tieu CSDL
+		- B2: Xac dinh cac thuc the can luu tru. Xac dinh cac truong du lieu cua thuc the
+		- B3: Xac dinh moi quan he giua cac thuc the voi nhau
+		- B4: Xac dinh PK, RK
+		- B5: Ve ERD
+			+ Thuoc tinh: Hinh Elpise
+			+ Thuc the: Hinh Vuong
+			+ Quan he: Hinh thoi
+		- B6: To chuc vao Table
+		- B7: Chuan hoa data
+			+ 1NF: Truong - don le
+			+ 2NF: 1NF + Cac truong phu thuoc vao khoa chinh
+			+ 3NF: 2NF + Loai bo cac tinh chat bac cau
+		- B8: SQL -> CSDL
